@@ -3,7 +3,7 @@
 ---
 
 ## Alumno
-**Nombre del alumno**: [Tu Nombre Aquí]
+**Nombre del alumno**: [Lucas G. Sigüenza.]
 
 ## 📄 Descripción del Proyecto
 
