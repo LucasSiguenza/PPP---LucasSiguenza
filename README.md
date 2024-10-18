@@ -3,7 +3,7 @@
 ---
 
 ## Alumno
-**Nombre del alumno**: [Tu Nombre Aquí]
+**Nombre del alumno**: Lucas G. Sigüenza.
 
 ## 📄 Descripción del Proyecto
 
@@ -66,3 +66,22 @@ El proyecto está compuesto por las siguientes clases y subclases:
    - `aplicaDescuento`: Indica si se aplica un descuento.
 - **Métodos**:
    - `calcularPrecioFinal()`: Calcula el precio final de acuerdo con el menú y las promociones disponibles.
+
+### 4. **EDiasSemana** (Enum)
+- **Lista Enumerados**:
+     -`EDiaSemana`: Un enumerado con el tipo de dato DayOfWeek correspondiente a cada día.
+- **Atributos**:
+     -`dia`: variable que almacena el enumerado correspondiente al día de la semana y permite que estos elementos sean del tipo DayOfWeek.
+-**Métodos**:
+     -`diaActual()`: Compara la fecha LocalDate enviada por parámetro y le asigna un valor DayOfWeek correspondiente al enumerado de su fecha. De no encontrar lanza un IllegalArgumenteExeption.
+  
+### 5 **Sistema**(Clase)
+-**Atributos específicos**:
+      -`lstServicios`: Lista de servicios habidos.
+-**Constructores**:
+      -`Vacío`: Utilizado para instanciar la lista en caso de no haberla.
+      -`Con List<Servicio>`: En caso de ya haber una lista que quiera ser gestionada por sistema.
+-**Métodos**:
+      -`traerServicio()`: Posee tres(3) formas, en las cuales puede traer un servicio por código, otra por estado de promoción, y finalmente una por estado de promoción y un localDate.
+      -`agregarGastronomia()`: Permite crear un objeto del tipo Gastronomia, y, de no hayarse en la lista, lo añade.
+      -`agregarHospedaje()`: Permite crear un objeto del tipo Hospedaje, y, de no encontrarse en la lista, es añadido.
